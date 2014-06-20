@@ -1,0 +1,24 @@
+
+@font-face {
+	font-family: 'FbSpacer-Regular';
+	src: url('../fonts/FbSpacer-Regular.eot?') format('eot'), 
+	     url('../fonts/FbSpacer-Regular.woff') format('woff'), 
+	     url('../fonts/FbSpacer-Regular.ttf')  format('truetype'),
+	     url('../fonts/FbSpacer-Regular.svg#FbSpacer-Regular') format('svg');
+}
+
+@font-face {
+	font-family: 'FbSpacer-Bold';
+	src: url('../fonts/FbSpacer-Bold.eot?') format('eot'), 
+	     url('../fonts/FbSpacer-Bold.woff') format('woff'), 
+	     url('../fonts/FbSpacer-Bold.ttf')  format('truetype'),
+	     url('../fonts/FbSpacer-Bold.svg#FbSpacer-Bold') format('svg');
+}
+
+@font-face {
+	font-family: 'FbLiddar-Bold';
+	src: url('../fonts/FbLiddar-Bold.eot?') format('eot'), 
+	     url('../fonts/FbLiddar-Bold.woff') format('woff'), 
+	     url('../fonts/FbLiddar-Bold.ttf')  format('truetype'),
+	     url('../fonts/FbLiddar-Bold.svg#FbLiddar-Bold') format('svg');
+}
