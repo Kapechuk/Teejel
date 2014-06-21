@@ -8,8 +8,8 @@ html, body {
 
 .outer-wrapper {
 	background: url("../img/header-backgrnd.png") 0 0 repeat-x;
-	min-height: 100%;
-    height: auto;
+/* 	min-height: 100%;
+    height: auto; */
     margin: 0 auto;
     padding: 0 0;
 }
@@ -17,9 +17,11 @@ html, body {
 
 .inner-wrapper {
 	width: 960px;
-	margin: 0 auto;
+	min-height: 100%;
+    height: auto;
+	margin: 0 auto -164px;
 /*     border: 1px solid #ccc; */
-    padding: 0;
+    padding: 0 0 164px;
 }
 
 header {
@@ -89,6 +91,7 @@ header .left-flag {
 header .right-flag {
 	right: 2.5%;
 	top: 30px;
+	text-align: center;
 }
 
 header .header-menu-list {
@@ -169,6 +172,39 @@ header .header-menu-list {
 	font-size: 120%;
 }
 
+header .banner-box {
+	position: relative;
+	display: block;
+	width: 87.55%;
+	height: 75%;
+	margin: 150px auto 0;
+	/*box-shadow: 0 9px 7px 0 #adc4cc;*/
+	
+}
+
+.banner-img {
+	border: 2px solid #ddebf6;
+
+}
+
+.before-corner, .after-corner {
+	position: absolute;
+}
+
+.before-corner {
+	bottom: -3px;
+	left: -1px;
+}
+
+.after-corner {
+	top: 0;
+	right: -3px;
+}
+
+main {
+	height: 600px;
+}
+  
 footer {
 	height: 164px;
 	background: url('../img/footer-backgrnd.png') 0 0 repeat-x;
