@@ -182,6 +182,21 @@ header .banner-box {
 	
 }
 
+.banner-box .banner-title {
+	position: absolute;
+	background: url('../img/banner-title.png') 0 0 no-repeat;
+	margin: 0;
+	height: 34.3%;
+	width: 48%;
+	right: 0;
+	top: 33%;
+	font-family: 'FbSpacer-Bold';
+	color: #ff1d89;
+	padding-top: 15px;
+	text-align: right;
+	padding-right: 15%;
+}
+
 .banner-img {
 	border: 2px solid #ddebf6;
 
@@ -198,11 +213,16 @@ header .banner-box {
 
 .after-corner {
 	top: 0;
-	right: -3px;
+	right: -5px;
 }
 
-main {
-	height: 600px;
+.main-contentbox {
+	margin-top: 90px;
+	padding-top: 53px;
+}
+
+.main-contentbox>img {
+	float: right;
 }
   
 footer {
