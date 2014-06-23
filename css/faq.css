@@ -16,12 +16,21 @@
 	color: #ef5295;
 	font-family: 'FbSpacer-Bold';
 	margin: 15px 0 30px;
-	margin-right: 13%;
+	margin-right: 9%;
 
+}
+
+.contact-form>form input {
+	margin-right: 10.5%;
+}
+
+.contact-form>form textarea {
+	margin-right: 10.5%;
 }
 
 .contact-form button {
 	bottom: 20px;
+	margin-left: 10%; 
 }
 
 .main-contentbox>img {
@@ -44,25 +53,25 @@
 	text-align: right;
 	color: #5f9dcd;
 	margin: 0 0 30px;
+	padding-right: 4%;
 }
 
 #faqs>p { 
 	cursor:pointer;
 	text-align: right;
 	padding-right: 4%;
-	padding-left: 7%;
-	/* background-color: #cbe7f0; */
+	padding-left: 13%;
 	font-size: 100%; 
 	margin-bottom: 20px;
 	color: #14447d;
 	height: 26px;
-	background: url('../img/faqs_block.png'), url('../img/faqs_arrow_close.png') 40px 8px no-repeat;
+	background: url('../img/faqs_block.png'), url('../img/faqs_arrow_close.png') 90px 8px no-repeat;
 }
 
 
 #faqs p.active	{ 
 	color:#d74646; 
-	background: url('../img/faqs_block.png'), url('../img/faqs_arrow_open.png') 40px 8px no-repeat;
+	background: url('../img/faqs_block.png'), url('../img/faqs_arrow_open.png') 90px 8px no-repeat;
 }
 
 #faqs div { 
@@ -70,7 +79,6 @@
 }
 
 #faqs div p	{ 
-/* 	padding:0;  */
 	margin-bottom:15px; 
 	text-align: right;
 	padding-right: 4%; 
