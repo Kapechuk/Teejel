@@ -216,6 +216,10 @@ header .banner-box {
 	right: -5px;
 }
 
+main {
+	height: 550px;
+}
+
 .main-contentbox {
 	margin-top: 90px;
 	padding-top: 53px;
