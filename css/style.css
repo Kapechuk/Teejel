@@ -134,6 +134,10 @@ header .header-menu-list {
 	vertical-align: middle;
 }
 
+.header-menu-list>ul>li>a:hover {
+	color: black;
+}
+
 .header-menu-list ul li:nth-child(6) a {
 	border-right: none;
 }
@@ -143,6 +147,7 @@ header .header-menu-list {
 	display: none;
 	width: 17%;
 	border: 2px solid #f594c5;
+	border-top: none;
 	/* background-color: white; */
 	background: url('../img/submenu-back.png') 0 0 repeat;
 	padding-left: 0;
@@ -161,15 +166,28 @@ header .header-menu-list {
 	border-bottom: 1px dotted #f594c5;
 }
 
+.header-menu-list .sub-menu li:last-child {
+	border-bottom: none;
+} 
+
 .header-menu-list .sub-menu li a {
 	display: block;
 	text-decoration: none;
 	color: #f594c5;
 	text-align: center;
 	height: 100%;
+	line-height: 38px;
+	vertical-align: middle;
+	font-size: 120%;
+}
+
+.header-menu-list .sub-menu li a:hover {
+	color: black;
+}
+
+.header-menu-list .sub-menu li:last-child a {
 	line-height: 0.8;
 	padding-top: 8px;
-	font-size: 120%;
 }
 
 header .banner-box {
@@ -231,6 +249,7 @@ main {
 }
 
 .contact-form {
+	position: relative;
 	display: inline-block;
 	background: url('../img/form-back.png') 0 0 repeat-x #e5f0ee;
 	height: 380px;
@@ -273,13 +292,13 @@ main {
 }
  
 .contact-form button {
-	position: relative;
+	position: absolute;
 	background-color: #e03179;
 	color: white;
 	padding: 2px 17px;
 	display: block;
 	margin-left: 7%;
-	top: 320px;
+	bottom: 25px;
 }
   
 footer {
@@ -318,8 +337,13 @@ footer .footer-nav {
 footer .footer-nav li {
 	display: inline-block;
 	text-align: center;
-	height: 30px;
+	height: 15px;
 	padding: 0 10px;
+	border-left: 1px solid #428bca;
+}
+
+footer .footer-nav li:first-child {
+	border-left: none;
 }
 
 .footer-nav li a {
