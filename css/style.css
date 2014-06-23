@@ -231,11 +231,11 @@ header .banner-box {
 
 .after-corner {
 	top: 0;
-	right: -5px;
+	right: -6px;
 }
 
 main {
-	height: 540px;
+	min-height: 540px;
 }
 
 .main-contentbox {

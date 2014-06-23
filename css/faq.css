@@ -1,0 +1,78 @@
+.banner-box .banner-title {
+	padding-right: 10%;
+}
+
+.contact-form {
+	width: 44%;
+	float: right;
+	margin-right: 10%;
+	background-image: none; 
+	height: 340px;
+}
+
+.contact-form>form>p{
+	font-size: 120%;
+	text-align: right;
+	color: #ef5295;
+	font-family: 'FbSpacer-Bold';
+	margin: 15px 0 30px;
+	margin-right: 13%;
+
+}
+
+.contact-form button {
+	bottom: 20px;
+}
+
+.main-contentbox>img {
+	float: left;
+	margin-left: 6%;
+}
+
+.main-contentbox {
+	padding-top: 30px;
+}
+
+#faqs { 
+	position:relative; 
+	width: 91%;
+	margin: 0 auto 60px;
+	font-size: 130%;
+}
+
+#faqs>h3 {
+	text-align: right;
+	color: #5f9dcd;
+	margin: 0 0 30px;
+}
+
+#faqs>p { 
+	cursor:pointer;
+	text-align: right;
+	padding-right: 4%;
+	padding-left: 7%;
+	/* background-color: #cbe7f0; */
+	font-size: 100%; 
+	margin-bottom: 20px;
+	color: #14447d;
+	height: 26px;
+	background: url('../img/faqs_block.png'), url('../img/faqs_arrow_close.png') 40px 8px no-repeat;
+}
+
+
+#faqs p.active	{ 
+	color:#d74646; 
+	background: url('../img/faqs_block.png'), url('../img/faqs_arrow_open.png') 40px 8px no-repeat;
+}
+
+#faqs div { 
+	position:relative; 
+}
+
+#faqs div p	{ 
+/* 	padding:0;  */
+	margin-bottom:15px; 
+	text-align: right;
+	padding-right: 4%; 
+	padding-left: 4%;
+}
