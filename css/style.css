@@ -222,7 +222,60 @@ header .banner-box {
 }
 
 .main-contentbox>img {
+	display: inline-block;
 	float: right;
+}
+
+.contact-form {
+	display: inline-block;
+	background: url('../img/form-back.png') 0 0 repeat-x #e5f0ee;
+	height: 380px;
+	width: 59%;
+	border: 2px solid #e5f0ee;
+}
+
+.contact-form h3 {
+	font-size: 155%;
+	color: #ff1d89;
+	font-weight: 600;
+	width: 70%;
+	text-align: right;
+	float: right;
+	margin-right: 13%;
+	margin-top: 35px;
+	margin-bottom: 15px;
+}
+
+.contact-form input {
+	border: 2px solid #a2c9d2;
+	border-radius: 0px;
+	width: 80%;
+	margin-right: 13%;
+	float: right;
+	margin-bottom: 15px;
+	height: 26px;
+	text-align: right;
+}
+
+.contact-form textarea {
+	border: 2px solid #a2c9d2;
+	width: 80%;
+	margin-right: 13%;
+	float: right;
+	margin-bottom: 15px;
+	height: 86px;
+	text-align: right;
+	padding: 6px 12px;
+}
+ 
+.contact-form button {
+	position: relative;
+	background-color: #e03179;
+	color: white;
+	padding: 2px 17px;
+	display: block;
+	margin-left: 7%;
+	top: 320px;
 }
   
 footer {
