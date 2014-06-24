@@ -1,0 +1,188 @@
+@media screen and (min-width: 768px)  and  (max-width: 990px){
+	/* header */
+
+	.inner-wrapper {
+		width: 768px;
+	}
+
+	.header-menu {
+		width: 97%;
+	}
+
+	header .right-flag {
+		right: 5%;
+	}
+
+	.header-menu-list>ul>li {
+		width: 15.8%;
+		font-size: 90%;
+
+    }
+
+    .banner-box {
+    	right: 10px;
+    }
+
+    .banner-box .before-corner {
+    	bottom: 20px;
+		left: 0px;
+    }
+
+    .banner-box .banner-title {
+    	top: 23%;
+    }
+
+    .header-menu-list .sub-menu li a {
+    	font-size: 100%;
+    }
+
+    /* main-contact */
+
+    .contact-form {
+    	width: 55%;
+    	margin-left: 30px;
+    }
+
+}
+
+@media screen and (min-width: 640px)  and  (max-width: 767px) {
+
+	/* header */
+
+	.inner-wrapper {
+		width: 640px;
+	}
+
+	.header-menu {
+		width: 97%;
+	}
+
+	header .right-flag {
+		right: 5%;
+	}
+
+	.header-menu-list>ul>li {
+		width: 15.8%;
+		font-size: 80%;
+    }
+
+    .banner-box {
+    	right: 10px;
+    }
+
+    .banner-box .before-corner {
+    	bottom: 40px;
+		left: 0px;
+    }
+
+    .banner-box .banner-title {
+    	top: 20%;
+    }
+
+    .search-box input {
+    	margin-left: 0;
+    }
+
+    #fontSizeButton {
+    	margin-left: 100px;
+    }
+
+    .header-menu-list .sub-menu li:nth-child(2) a {
+    	line-height: 1;
+    	padding-top: 7px;
+    }
+
+    /* main-contact */
+
+    .contact-form {
+    	width: 65.6%;
+    	margin-left: 95px;
+    }
+
+    .main-contentbox img {
+    	display: none;
+    }
+
+    .main-contentbox {
+    	padding-top: 0;
+    }
+
+}
+
+@media screen and (min-width: 480px)  and  (max-width: 639px) {
+
+		/* header */
+
+	.inner-wrapper {
+		width: 480px;
+	}
+
+	.header-menu {
+		width: 100%;
+	}
+
+	header .header-menu-list {
+		margin: 0;
+		width: 96.7%;
+	}
+
+	header .right-flag {
+		display: none;
+	}
+
+	header .left-flag {
+		display: none;
+	}
+
+	.header-menu-list>ul>li {
+		width: 15.8%;
+		font-size: 60%;
+    }
+
+    .banner-box {
+    	right: 7px;
+    	bottom: 20px;
+    }
+
+    .banner-box .before-corner {
+		display: none;
+    }
+
+    .banner-box .after-corner {
+		display: none;
+    }
+
+    .banner-box .banner-title {
+    	top: 10%;
+    	background-image: none;
+    }
+
+    .search-box input {
+    	margin-left: 0;
+    }
+
+    #fontSizeButton {
+    	margin-left: 100px;
+    }
+
+    .header-menu-list .sub-menu li:nth-child(2) a {
+    	line-height: 1;
+    	padding-top: 7px;
+    }
+
+        /* main-contact */
+
+    .contact-form {
+    	width: 87.5%;
+    	margin-left: 24px;
+    }
+
+    .main-contentbox img {
+    	display: none;
+    }
+
+    .main-contentbox {
+    	padding-top: 0;
+    }
+
+}

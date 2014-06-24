@@ -72,7 +72,8 @@ header {
 
 .header-menu {
 	padding-top: 15px;
-	/* box-shadow: 0 3px 3px 0 #adc4cc; */
+	width: 100%;
+	position: ralative;
 }
 
 header .left-flag, header .right-flag {
@@ -217,6 +218,7 @@ header .banner-box {
 
 .banner-img {
 	border: 2px solid #ddebf6;
+	width: 100%;
 
 }
 
