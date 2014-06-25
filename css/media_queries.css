@@ -109,11 +109,11 @@
     }
 
     .search-box input {
-    	margin-left: 0;
+    	margin-left: 35px;
     }
 
     #fontSizeButton {
-    	margin-left: 100px;
+    	margin-left: 135px;
     }
 
     .header-menu-list .sub-menu li:nth-child(2) a {
