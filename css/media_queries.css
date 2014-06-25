@@ -49,6 +49,29 @@
         width: 83%;
     }
 
+    /* main faq */
+
+    .main-contentbox .query-for-faq {
+        margin-left: 30%;
+    }
+
+    .queries-clas-faq {
+        margin-right: 21%;
+    }
+
+    #faqs {
+        margin-bottom: 0;
+    }
+
+    #faqs>p {
+        background: url('../img/faqs_block.png'), url('../img/faqs_arrow_close.png') 60px 8px no-repeat;
+    }
+
+    #faqs p.active  { 
+        color:#d74646; 
+        background: url('../img/faqs_block.png'), url('../img/faqs_arrow_open.png') 60px 8px no-repeat;
+    }
+
 }
 
 @media screen and (min-width: 640px)  and  (max-width: 767px) {
@@ -105,9 +128,9 @@
     	margin-left: 95px;
     }
 
-    .main-contentbox img {
-    	display: none;
-    }
+.main-contentbox .query-for-contact {
+    display: none;
+}
 
     .main-contentbox {
     	padding-top: 0;
@@ -131,6 +154,29 @@
 
     .leftside-image-bar>div {
         border-right: none;
+    }
+
+        /* main faq */
+
+    .main-contentbox>img {
+        margin-left: 25%;
+    }
+
+    .queries-clas-faq {
+        margin-right: 17%;
+    }
+
+    #faqs {
+        margin-bottom: 0;
+    }
+
+    #faqs>p {
+        background: url('../img/faqs_block.png'), url('../img/faqs_arrow_close.png') 45px 8px no-repeat;
+    }
+
+    #faqs p.active  { 
+        color:#d74646; 
+        background: url('../img/faqs_block.png'), url('../img/faqs_arrow_open.png') 45px 8px no-repeat;
     }
 
 }
@@ -207,8 +253,8 @@
     	margin-left: 24px;
     }
 
-    .main-contentbox img {
-    	display: none;
+    .main-contentbox .query-for-contact {
+        display: none;
     }
 
     .main-contentbox {
@@ -235,5 +281,28 @@
     .leftside-image-bar>div {
         border-right: none;
         margin-top: 40px;
+    }
+
+       /* main faq */
+
+    .main-contentbox>img {
+        margin-left: 15%;
+    }
+
+    .queries-clas-faq {
+        margin-right: 8%;
+    }
+
+    #faqs {
+        margin-bottom: 0;
+    }
+
+    #faqs>p {
+        background: url('../img/faqs_block.png'), url('../img/faqs_arrow_close.png') 30px 8px no-repeat;
+    }
+
+    #faqs p.active  { 
+        color:#d74646; 
+        background: url('../img/faqs_block.png'), url('../img/faqs_arrow_open.png') 30px 8px no-repeat;
     }
 }
