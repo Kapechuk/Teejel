@@ -1,3 +1,21 @@
+.outer-wrapper {
+	background: url('../img/big_banner_bckgrnd.png') 0 0 repeat-x;
+}
+
+header {
+	height: 522px;
+}
+
+.before-corner {
+	left: -10px;
+	bottom: 40px;
+}
+
+.after-corner {
+	top: -10px;
+	right: -15px;
+}
+
 main {
 	padding-top: 90px;
 	position: relative;
