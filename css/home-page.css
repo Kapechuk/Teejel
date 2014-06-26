@@ -1,0 +1,171 @@
+main {
+	padding-top: 90px;
+	position: relative;
+}
+
+.main-page-img1 {
+	margin-left: 10%;
+	display: inline-block;
+}
+
+.main-frame-article {
+	padding-top: 23px;
+	text-align: right;
+	padding-right: 0;
+}
+
+.main-frame-article h2{
+	display: inline-block;
+	font-family: 'FbSpacer-Bold';
+	font-size: 180%;
+	color: #428bc3;
+}
+
+.main-frame-article p {
+	font-size: 130%;
+	color: #15457e;
+	padding-right: 2%;
+	padding-left: 4%;
+	text-align: justify;
+}
+
+.main-frame-article p>a {
+	color: #ff2c8a;
+} 
+
+.main-frame-article img {
+	vertical-align: top;
+	margin-top: 15px;
+}
+
+.main-page-img2 {
+	margin-top: 55px;
+}
+
+.main-page-banner-box {
+	padding-top: 70px;
+	padding-bottom: 100px;
+}
+
+.ban1, .ban2, .ban3 {
+	position: ralative;
+} 
+
+.ban1 {
+	padding-right: 1%;
+	text-align: right;
+}
+
+.ban2 {
+	padding-left: 3.2%;
+}
+
+.before-corner1 {
+	position: absolute;
+	bottom: -15px;
+	left: 35px;
+}
+
+.after-corner1 {
+	position: absolute;
+	top: -20px;
+	right: -10px;
+}
+
+.before-corner2 {
+	position: absolute;
+	bottom: -15px;
+	left: 15px;
+}
+
+.after-corner2 {
+	position: absolute;
+	top: -20px;
+	right: 10px;
+}
+
+.before-corner3 {
+	position: absolute;
+	bottom: -15px;
+	left: 0px;
+}
+
+.after-corner3 {
+	position: absolute;
+	top: -20px;
+	right: 25px;
+}
+
+.main-form-box {
+	position: absolute;
+	bottom: -90px;
+}
+
+.main-footer-form {
+	background-color: white;
+	width: 90%;
+	margin: 50px auto 0;
+	border-top: 10px solid #f0f6fa;
+	border-left: 10px solid #f0f6fa;
+	border-right: 10px solid #f0f6fa;
+	border-bottom: 10px solid #c9ecf9;
+}
+
+.main-footer-form button {
+	display: inline-block;
+	background-color: #e03179;
+	color: white;
+	padding: 5px 17px;
+	margin-left: 3%;
+
+}
+
+.main-footer-form h3{
+	display: inline;
+	font-size: 130%;
+	color: #f81d8b;
+	font-family: 'FbSpacer-Bold';
+	float: right;
+	margin-right: 3.5%;
+	margin-top: 18px;
+}
+
+.main-footer-form label {
+	position: relative;
+	display: inline-block;
+	vertical-align: middle;
+	color: #777777;
+	padding: 8px 0;
+	margin-bottom: 0;
+	left: 45.5%;
+	font-weight: 400;
+}
+
+.main-footer-form .checkbox {
+	position: absolute;
+	border: 2px solid #d9e9f5;
+	display: inline-block;
+	bottom: 7px;
+	margin-left: 10px;
+}
+
+.main-footer-form .main-input {
+	margin-left: 1.5%;
+	height: 35px;
+	width: 20%;
+	margin-top: 12px;
+	border: 2px solid #d9e9f5;
+	text-align: center;
+}
+
+.main-footer-form .main-input::-webkit-input-placeholder { 
+	color: #3784c0; 
+}
+
+.main-footer-form .main-input:-moz-placeholder {
+	color: #3784c0; 
+}
+
+footer .footer-box>a {
+	margin-top: 115px;
+}
