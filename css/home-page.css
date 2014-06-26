@@ -1,5 +1,5 @@
 .outer-wrapper {
-	background: url('../img/big_banner_bckgrnd.png') 0 0 repeat-x;
+	background: url('../img/big_banner_bckgrnd1.png') 0 0 repeat-x;
 }
 
 header {
@@ -14,6 +14,15 @@ header {
 .after-corner {
 	top: -10px;
 	right: -15px;
+}
+
+.banner-box .banner-title {
+	background: url('../img/main_page_article_img1.png') 82% -3px no-repeat, url('../img/main_big_banner_title.png') 0 0 no-repeat;
+	left: 3px;
+	width: 55%;
+	color: #ff1d89;
+	text-align: left;
+	padding-left: 4%;
 }
 
 main {
