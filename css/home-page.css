@@ -99,6 +99,7 @@ main {
 .main-form-box {
 	position: absolute;
 	bottom: -90px;
+	z-index: 5;
 }
 
 .main-footer-form {
