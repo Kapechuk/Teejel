@@ -11,6 +11,7 @@
 }
 
 .contact-form>form>p{
+	padding-left: 38px;
 	font-size: 120%;
 	text-align: right;
 	color: #ef5295;
@@ -29,8 +30,10 @@
 }
 
 .contact-form button {
-	bottom: 20px;
-	margin-left: 10%; 
+	position: relative;
+	bottom: 0px;
+	margin-left: 0%;
+	margin-right: 76%; 
 }
 
 .main-contentbox>img {
