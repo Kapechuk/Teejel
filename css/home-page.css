@@ -116,25 +116,25 @@ main {
 .before-corner2 {
 	position: absolute;
 	bottom: -14px;
-	left: 10px;
+	left: 35px;
 }
 
 .after-corner2 {
 	position: absolute;
 	top: -15px;
-	right: 15px;
+	right: 0px;
 }
 
 .before-corner3 {
 	position: absolute;
 	bottom: -15px;
-	left: 0px;
+	left: 35px;
 }
 
 .after-corner3 {
 	position: absolute;
 	top: -15px;
-	right: 28px;
+	right: 0px;
 }
 
 .main-form-box {
