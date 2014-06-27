@@ -91,8 +91,15 @@ main {
 }
 
 .ban2 {
-	padding-left: 3.2%;
+	padding-left: 2%;
+	padding-right: 3.2%;
 }
+
+.ban3 {
+	padding-left: 0%;
+	padding-right: 5%;
+}
+
 
 .before-corner1 {
 	position: absolute;
@@ -108,26 +115,26 @@ main {
 
 .before-corner2 {
 	position: absolute;
-	bottom: -10px;
-	left: 35px;
+	bottom: -14px;
+	left: 10px;
 }
 
 .after-corner2 {
 	position: absolute;
 	top: -15px;
-	right: 0px;
+	right: 15px;
 }
 
 .before-corner3 {
 	position: absolute;
 	bottom: -15px;
-	left: 25px;
+	left: 0px;
 }
 
 .after-corner3 {
 	position: absolute;
 	top: -15px;
-	right: 0px;
+	right: 28px;
 }
 
 .main-form-box {
