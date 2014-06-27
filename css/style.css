@@ -6,6 +6,10 @@ html, body {
 	height: 100%;
 }
 
+body {
+	 direction:rtl;
+}
+
 .outer-wrapper {
 	background: url("../img/header-backgrnd.png") 0 0 repeat-x;
 /* 	min-height: 100%;
@@ -40,7 +44,7 @@ header {
 
 #fontSizeButton {
  	display: inline-block;
- 	margin-left: 135px;
+ 	margin-right: 25px;
  	margin-top: 15px;
  	cursor: pointer;
 }
@@ -52,7 +56,7 @@ header {
 	border: 4px solid #e0edfc;
 	height: 30px;
 	width: 147px;
-	margin-left: 38px;
+	margin-right: 25px;
 	background: url('../img/search-button.png') white 4px 4px no-repeat;
 	text-align: right;
 	color: #ff1d89;
@@ -113,9 +117,11 @@ header .header-menu-list {
 	padding-left: 0;
 	height: 38px;
 	width: 100%;
+	padding-right: 0;
 } 
 
 .header-menu-list>ul>li {
+	position: relative;
 	display: inline-block;
 	width: 16.2%;
 	height: 38px;
@@ -139,22 +145,22 @@ header .header-menu-list {
 	color: black;
 }
 
-.header-menu-list ul li:nth-child(6) a {
+.header-menu-list ul li:nth-child(1) a {
 	border-right: none;
 }
 
 .header-menu-list .sub-menu {
+	padding-right: 0;
 	position: absolute;
 	display: none;
 	width: 17%;
 	border: 2px solid #f594c5;
 	border-top: none;
-	/* background-color: white; */
 	background: url('../img/submenu-back.png') 0 0 repeat;
 	padding-left: 0;
-	height: 118px;
 	top: 38px;
-	left: 49%;
+	left: 0%;
+	width: 100%;
 }
 
 .header-menu-list>ul>li:hover .sub-menu{
@@ -176,19 +182,14 @@ header .header-menu-list {
 	text-decoration: none;
 	color: #f594c5;
 	text-align: center;
-	height: 100%;
-	line-height: 38px;
-	vertical-align: middle;
+	height: 38px;
+	padding: 10px 0 0px;
+	line-height: 0.8;
 	font-size: 120%;
 }
 
 .header-menu-list .sub-menu li a:hover {
 	color: black;
-}
-
-.header-menu-list .sub-menu li:last-child a {
-	line-height: 0.8;
-	padding-top: 8px;
 }
 
 header .banner-box {
@@ -243,6 +244,7 @@ main {
 .main-contentbox {
 	margin-top: 90px;
 	padding-top: 53px;
+	padding-left: 0;
 }
 
 .main-contentbox>img {
@@ -257,6 +259,7 @@ main {
 	height: 380px;
 	width: 59%;
 	border: 2px solid #e5f0ee;
+	float: left;
 }
 
 .contact-form h3 {
@@ -299,7 +302,7 @@ main {
 	color: white;
 	padding: 2px 17px;
 	display: block;
-	margin-left: 7%;
+	margin-right: 79%;
 	bottom: 25px;
 }
   
@@ -328,12 +331,13 @@ footer .footer-box>a {
 }
 
 footer .footer-nav {
+	padding-right: 0;
 	list-style: none;
 	padding-left: 0;
-	width: 50%;
+	width: 70%;
 	color: grey;
 	margin-top: 100px;
-
+	margin-right: 25%;
 }
 
 footer .footer-nav li {
@@ -343,8 +347,8 @@ footer .footer-nav li {
 	padding: 0 10px;
 	border-left: 1px solid #428bca;
 }
-
-footer .footer-nav li:first-child {
+ 
+footer .footer-nav li:nth-child(2) {
 	border-left: none;
 }
 

@@ -18,11 +18,16 @@ header {
 
 .banner-box .banner-title {
 	background: url('../img/main_page_article_img1.png') 82% -3px no-repeat, url('../img/main_big_banner_title.png') 0 0 no-repeat;
-	left: 3px;
+	right: 45%;
+	float: left;
 	width: 55%;
 	color: #ff1d89;
 	text-align: left;
 	padding-left: 4%;
+}
+
+header .banner-box {
+	height: 392px;
 }
 
 main {
@@ -72,6 +77,7 @@ main {
 .main-page-banner-box {
 	padding-top: 70px;
 	padding-bottom: 100px;
+	padding-left: 0;
 }
 
 .ban1, .ban2, .ban3 {
@@ -81,6 +87,7 @@ main {
 .ban1 {
 	padding-right: 1%;
 	text-align: right;
+	padding-left: 0;
 }
 
 .ban2 {
@@ -101,26 +108,26 @@ main {
 
 .before-corner2 {
 	position: absolute;
-	bottom: -15px;
-	left: 15px;
+	bottom: -10px;
+	left: 35px;
 }
 
 .after-corner2 {
 	position: absolute;
-	top: -20px;
-	right: 10px;
+	top: -15px;
+	right: 0px;
 }
 
 .before-corner3 {
 	position: absolute;
 	bottom: -15px;
-	left: 0px;
+	left: 25px;
 }
 
 .after-corner3 {
 	position: absolute;
-	top: -20px;
-	right: 25px;
+	top: -15px;
+	right: 0px;
 }
 
 .main-form-box {
@@ -144,7 +151,8 @@ main {
 	background-color: #e03179;
 	color: white;
 	padding: 5px 17px;
-	margin-left: 3%;
+	margin-left: 0%;
+	margin-right: 1.8%;
 
 }
 
@@ -154,7 +162,7 @@ main {
 	color: #f81d8b;
 	font-family: 'FbSpacer-Bold';
 	float: right;
-	margin-right: 3.5%;
+	margin-right: 3%;
 	margin-top: 18px;
 }
 
@@ -165,7 +173,7 @@ main {
 	color: #777777;
 	padding: 8px 0;
 	margin-bottom: 0;
-	left: 45.5%;
+	right: 25.4%;
 	font-weight: 400;
 }
 
@@ -174,11 +182,11 @@ main {
 	border: 2px solid #d9e9f5;
 	display: inline-block;
 	bottom: 7px;
-	margin-left: 10px;
+	margin-right: -20px;
 }
 
 .main-footer-form .main-input {
-	margin-left: 1.5%;
+	margin-right: 1.9%;
 	height: 35px;
 	width: 20%;
 	margin-top: 12px;
@@ -194,6 +202,12 @@ main {
 	color: #3784c0; 
 }
 
-footer .footer-box>a {
-	margin-top: 115px;
+/* footer .footer-box>a {
+	margin-top: 0px;
+} */
+
+footer .footer-nav {
+	margin-top: 114px;
+/* 	width: 30%;
+margin-right: 70%; */
 }

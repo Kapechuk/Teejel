@@ -6,26 +6,34 @@
 	}
 
 	.header-menu {
-		width: 97%;
+		width: 100%;
 	}
 
 	header .right-flag {
-		right: 5%;
+		right: 2.5%;
 	}
 
 	.header-menu-list>ul>li {
-		width: 15.8%;
+		width: 16.0%;
 		font-size: 90%;
 
     }
 
-    .banner-box {
-    	right: 10px;
+    .search-box input{
+        margin-right: -15px;
+    }
+
+    #fontSizeButton {
+        margin-right: -15px;
+    }
+
+    .head-logo-search-box a {
+        margin-right: -50px;
     }
 
     .banner-box .before-corner {
     	bottom: 20px;
-		left: 0px;
+		left: -3px;
     }
 
     .banner-box .banner-title {
@@ -36,17 +44,48 @@
     	font-size: 100%;
     }
 
+    footer .inner-footer {
+        width: 768px;
+    }
+
+    footer .footer-nav {
+        margin-right: 60%;
+        width: 35%;
+        
+    }
+
+    header, main {
+        width: 768px;
+    }
+
+
+    /* header main page*/
+
+    .banner-box .querie-for-mp {
+        font-size: 180%;
+        background: url('../img/main_page_article_img1.png') 93% -3px no-repeat, url('../img/main_big_banner_title.png') 0 0 no-repeat;
+    }
+
+    .banner-box .before {
+        bottom: 105px;
+        left: -8px;
+    }
+
     /* main-contact */
 
     .contact-form {
     	width: 55%;
-    	margin-left: 30px;
+    	margin-left: 60px;
     }
 
     /* main inner2 */
 
     .cornered-img {
         width: 83%;
+    }
+
+    .leftside-image-bar>div>img {
+        margin-right: 0px;
     }
 
     /* main faq */
@@ -57,6 +96,11 @@
 
     .queries-clas-faq {
         margin-right: 21%;
+    }
+
+    .queries-clas-faq button {
+        margin-left: 0;
+        margin-right: 76%;
     }
 
     #faqs {
@@ -72,6 +116,83 @@
         background: url('../img/faqs_block.png'), url('../img/faqs_arrow_open.png') 60px 8px no-repeat;
     }
 
+    /* main index */
+
+    main.mainpage {
+        padding-top: 50px;
+    }
+
+    .main-page-img1 {
+        margin-left: 0%;
+        margin-right: 20%;
+    }
+
+    .main-page-img2 {
+        margin-top: 33px;
+        margin-left: 0px;
+        margin-right: 10%;
+    }
+
+    .main-frame-article {
+        margin-left: 5%;
+    }
+
+    .ban1 div  {
+        position: relative;
+        display: inline-block;
+        margin: 15px 33% 10px 0%;
+    } 
+
+    .ban2 div {
+        position: relative;
+        display: inline-block;
+        margin: 15px 33% 10px 0%;
+    }
+
+    .ban3 div {
+        position: relative;
+        display: inline-block;
+        margin: 15px 33% 10px 0%;
+    }
+
+    .before-corner1 {
+        left: -12px;
+    }
+
+    .before-corner2 {
+        left: -12px;
+    }
+
+    .before-corner3 {
+        left: -12px;
+    }
+
+    .after-corner2 {
+        right: -15px;
+    } 
+
+    .after-corner3 {
+        right: -15px;
+    } 
+
+    .main-footer-form h3 {
+        position: relative;
+        bottom: 82px;
+        right: 35%;
+    }
+
+    .main-footer-form {
+        height: 125px;
+        padding-top: 27px;
+    }
+
+    .main-footer-form .main-input:first-child {
+        margin-right: 12%;
+    }
+
+    .main-footer-form label {
+        right: 7%;
+    }
 }
 
 @media screen and (min-width: 640px)  and  (max-width: 767px) {
@@ -83,21 +204,18 @@
 	}
 
 	.header-menu {
-		width: 97%;
+		width: 100%;
 	}
 
 	header .right-flag {
-		right: 5%;
+		right: 2%;
 	}
 
 	.header-menu-list>ul>li {
-		width: 15.8%;
+		width: 16.0%;
 		font-size: 80%;
     }
 
-    .banner-box {
-    	right: 10px;
-    }
 
     .banner-box .before-corner {
     	bottom: 40px;
@@ -109,11 +227,12 @@
     }
 
     .search-box input {
-    	margin-left: 35px;
+    	margin-right: -30px;
     }
 
     #fontSizeButton {
-    	margin-left: 135px;
+    	margin-right: -16%;
+        margin-left: 20%;
     }
 
     .header-menu-list .sub-menu li:nth-child(2) a {
@@ -121,11 +240,43 @@
     	padding-top: 7px;
     }
 
+    footer .inner-footer {
+        width: 640px;
+    }
+
+    footer .footer-nav {
+        margin-right: 53%;
+        width: 45%;
+        
+    }
+
+    header, main {
+        width: 640px;
+    }
+
+    .head-logo-search-box a {
+        margin-right: -45%;
+    }
+
+        /* header main page*/
+
+    .banner-box .querie-for-mp {
+        padding-top: 20px;
+        font-size: 150%;
+        background: url('../img/main_page_article_img1.png') 97% -3px no-repeat, url('../img/main_big_banner_title.png') 0 0 no-repeat;
+
+    }
+
+    .banner-box .before {
+        bottom: 145px;
+        left: -8px;
+    }
+
     /* main-contact */
 
     .contact-form {
     	width: 65.6%;
-    	margin-left: 95px;
+    	margin-left: 120px;
     }
 
 .main-contentbox .query-for-contact {
@@ -179,11 +330,97 @@
         background: url('../img/faqs_block.png'), url('../img/faqs_arrow_open.png') 45px 8px no-repeat;
     }
 
+    .queries-clas-faq button {
+        margin-left: 0;
+        margin-right: 76%;
+    }
+
+        /* main index */
+
+    main.mainpage {
+        padding-top: 50px;
+    }
+
+    .main-page-img1 {
+        margin-left: 0%;
+        margin-right: 10%;
+    }
+
+    .main-page-img2 {
+        margin-top: 33px;
+        margin-left: 0px;
+        margin-right: 5%;
+    }
+
+    .main-frame-article {
+        margin-left: 0%;
+        margin-right: 5%;
+        padding-right: 5%;
+    }
+
+    .ban1 div  {
+        position: relative;
+        display: inline-block;
+        margin: 15px 28% 10px 0%;
+    } 
+
+    .ban2 div {
+        position: relative;
+        display: inline-block;
+        margin: 15px 28% 10px 0%;
+    }
+
+    .ban3 div {
+        position: relative;
+        display: inline-block;
+        margin: 15px 28% 10px 0%;
+    }
+
+    .before-corner1 {
+        left: -12px;
+    }
+
+    .before-corner2 {
+        left: -12px;
+    }
+
+    .before-corner3 {
+        left: -12px;
+    }
+
+    .after-corner2 {
+        right: -15px;
+    } 
+
+    .after-corner3 {
+        right: -15px;
+    } 
+
+    .main-footer-form h3 {
+        position: relative;
+        bottom: 82px;
+        right: 35%;
+    }
+
+    .main-footer-form {
+        height: 125px;
+        padding-top: 27px;
+    }
+
+    .main-footer-form .main-input:first-child {
+        margin-right: 10%;
+    }
+
+    .main-footer-form label {
+        right: 0%;
+    }    
+
 }
 
 @media screen and (min-width: 480px)  and  (max-width: 639px) {
 
 		/* header */
+
 
 	.inner-wrapper {
 		width: 480px;
@@ -195,7 +432,7 @@
 
 	header .header-menu-list {
 		margin: 0;
-		width: 96.7%;
+		width: 100%;
 	}
 
 	header .right-flag {
@@ -212,7 +449,7 @@
     }
 
     .banner-box {
-    	right: 7px;
+        right: 0%;
     	bottom: 20px;
     }
 
@@ -230,11 +467,12 @@
     }
 
     .search-box input {
-    	margin-left: 0;
+    	margin-right: -45%;
     }
 
     #fontSizeButton {
-    	margin-left: 100px;
+        margin-left: 25%;
+    	margin-right: -45%;
     }
 
     .header-menu-list .sub-menu li:nth-child(2) a {
@@ -246,11 +484,29 @@
     	top: 2%;
     }
 
+    footer .inner-footer {
+        width: 480px;
+    }
+
+    footer .footer-nav {
+        margin-right: 39%;
+        width: 60%;
+        
+    }
+
+    header, main {
+        width: 480px;
+    }
+
+    .head-logo-search-box a {
+        margin-right: -110%;
+    }
+
         /* main-contact */
 
     .contact-form {
     	width: 87.5%;
-    	margin-left: 24px;
+    	margin-left: 47px;
     }
 
     .main-contentbox .query-for-contact {
@@ -290,7 +546,7 @@
     }
 
     .queries-clas-faq {
-        margin-right: 8%;
+        margin-right: 6%;
     }
 
     #faqs {
@@ -305,4 +561,83 @@
         color:#d74646; 
         background: url('../img/faqs_block.png'), url('../img/faqs_arrow_open.png') 30px 8px no-repeat;
     }
+
+    .queries-clas-faq button {
+        margin-left: 0;
+        margin-right: 76%;
+    }
+
+    /* main index  */
+
+    .main-page-img2 {
+        position: absolute;
+        top: 0px;
+        right: -5%;
+        margin-top: 33px;
+        margin-left: 0px;
+        margin-right: 5%;
+    }
+
+    .ban1 div  {
+        position: relative;
+        display: inline-block;
+        margin: 15px 20% 10px 0%;
+    } 
+
+    .ban2 div {
+        position: relative;
+        display: inline-block;
+        margin: 15px 20% 10px 0%;
+    }
+
+    .ban3 div {
+        position: relative;
+        display: inline-block;
+        margin: 15px 20% 10px 0%;
+    }
+
+    .before-corner1 {
+        left: -12px;
+    }
+
+    .before-corner2 {
+        left: -12px;
+    }
+
+    .before-corner3 {
+        left: -12px;
+    }
+
+    .after-corner2 {
+        right: -15px;
+    } 
+
+    .after-corner3 {
+        right: -15px;
+    } 
+
+    .main-footer-form h3 {
+        position: relative;
+        bottom: 82px;
+        right: 27%;
+    }
+
+    .main-footer-form {
+        height: 125px;
+        padding-top: 27px;
+    }
+
+    .main-footer-form .main-input:first-child {
+        margin-right: 8%;
+    }
+
+    .main-footer-form label {
+        right: 22%;
+        bottom: 50px;
+    } 
+
+/* @media screen and (min-width: 480px)  and  (max-width: 496px) {
+    html, body {
+        width: 480px;
+    } */
 }
