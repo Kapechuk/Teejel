@@ -253,6 +253,7 @@ main {
 }
 
 .contact-form {
+	font-size: 14px;
 	position: relative;
 	display: inline-block;
 	background: url('../img/form-back.png') 0 0 repeat-x #e5f0ee;

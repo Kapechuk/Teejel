@@ -35,6 +35,10 @@ main {
 	position: relative;
 }
 
+.img-link a {
+	display: block;
+}
+
 .main-page-img1 {
 	margin-left: 10%;
 	display: inline-block;
@@ -143,14 +147,35 @@ main {
 	z-index: 5;
 }
 
-.main-footer-form {
-	background-color: white;
+.main-footer-form {	
+	font-size: 14px;
 	width: 90%;
 	margin: 50px auto 0;
-	border-top: 10px solid #f0f6fa;
-	border-left: 10px solid #f0f6fa;
-	border-right: 10px solid #f0f6fa;
-	border-bottom: 10px solid #c9ecf9;
+}
+
+.main-footer-form>div {
+	background-color: white;
+	width: 98%;
+	margin: 0 auto;
+}
+
+.main-footer-form {
+  border-top: 10px solid #f0f6fa;
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#f0f6fa), to(transparent));
+  background-image: -webkit-linear-gradient(#f0f6fa, transparent);
+  background-image:
+      -moz-linear-gradient(#f0f6fa, transparent),
+      -moz-linear-gradient(#f0f6fa, transparent);
+  background-image:
+      -o-linear-gradient(#f0f6fa, transparent),
+      -o-linear-gradient(#f0f6fa, transparent);
+  background-image: 
+      linear-gradient(#f0f6fa, transparent),
+      linear-gradient(#f0f6fa, transparent);
+  -moz-background-size: 10px 100%;
+  background-size: 10px 100%;
+  background-position: 0 0, 100% 0;
+  background-repeat: no-repeat; 
 }
 
 .main-footer-form button {
@@ -165,7 +190,7 @@ main {
 
 .main-footer-form h3{
 	display: inline;
-	font-size: 130%;
+	font-size: 18px;
 	color: #f81d8b;
 	font-family: 'FbSpacer-Bold';
 	float: right;
@@ -182,6 +207,7 @@ main {
 	margin-bottom: 0;
 	right: 25.4%;
 	font-weight: 400;
+	font-size: 14px;
 }
 
 .main-footer-form .checkbox {

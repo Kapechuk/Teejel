@@ -23,6 +23,15 @@ main {
 	margin-bottom: 50px; 
 }
 
+.img1 a {
+	display: inline-block;
+	margin-right: 10%;
+	margin-bottom: 50px;
+}
+
+.cornered-img a {
+	margin-right: 0%;
+}
 
 .cornered-img {
 	position: relative;
