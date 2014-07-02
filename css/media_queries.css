@@ -49,7 +49,7 @@
     }
 
     footer .footer-nav {
-        margin-right: 60%;
+        margin-right: 37%;
         width: 35%;
         
     }
@@ -249,8 +249,8 @@
     }
 
     footer .footer-nav {
-        margin-right: 53%;
-        width: 45%;
+        margin-right: 40%;
+        width: 35%;
         
     }
 
@@ -493,8 +493,8 @@
     }
 
     footer .footer-nav {
-        margin-right: 39%;
-        width: 60%;
+        margin-right: 24%;
+        width: 45%;
         
     }
 
@@ -530,8 +530,13 @@
     .cornered-img {
         display: inline-block;
         width: 41%;
-        margin-right: 8%;
+        margin-right: 27%;
     }
+
+    .img1>a {
+        margin-right: 23%;
+    }
+
     .leftside-image-bar>div>img {
         float: left;
         margin-left: 0;
@@ -629,6 +634,10 @@
     .main-footer-form {
         height: 125px;
         padding-top: 27px;
+    }
+
+    .main-footer-form>div {
+        height: 80px;
     }
 
     .main-footer-form .main-input:first-child {

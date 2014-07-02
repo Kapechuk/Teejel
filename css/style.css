@@ -327,7 +327,7 @@ footer {
 }
 
 footer .footer-box>a {
-	margin-top: 95px;
+	margin-top: 0px;
 	margin-left: 25px;
 }
 
@@ -335,10 +335,10 @@ footer .footer-nav {
 	padding-right: 0;
 	list-style: none;
 	padding-left: 0;
-	width: 70%;
+	width: 50%;
 	color: grey;
 	margin-top: 100px;
-	margin-right: 25%;
+	margin-right: 18%;
 }
 
 footer .footer-nav li {
