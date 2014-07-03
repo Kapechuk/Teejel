@@ -97,7 +97,7 @@
     /* main faq */
 
     .page-faq .main-contentbox .query-for-faq {
-        margin-left: 30%;
+        margin-left: 28%;
     }
 
     .page-faq .queries-clas-faq {
@@ -344,7 +344,7 @@
 
         /* main faq */
 
-    .page-faq .main-contentbox>img {
+    .page-faq .main-contentbox>a {
         margin-left: 25%;
     }
 
@@ -594,7 +594,7 @@
 
        /* main faq */
 
-    .page-faq .main-contentbox>img {
+    .page-faq .main-contentbox>a {
         margin-left: 15%;
     }
 

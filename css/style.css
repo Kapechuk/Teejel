@@ -247,9 +247,8 @@ main {
 	padding-left: 0;
 }
 
-.main-contentbox>img {
+.main-contentbox>a {
 	display: inline-block;
-	float: right;
 }
 
 .contact-form {
