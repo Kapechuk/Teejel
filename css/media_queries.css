@@ -61,140 +61,155 @@
 
     /* header main page*/
 
-    .banner-box .querie-for-mp {
+    .page-home .banner-box .querie-for-mp {
         font-size: 180%;
         background: url('../img/main_page_article_img1.png') 93% -3px no-repeat, url('../img/main_big_banner_title.png') 0 0 no-repeat;
     }
 
-    .banner-box .before {
+    .page-home .banner-box .before {
         bottom: 105px;
         left: -8px;
     }
 
     /* main-contact */
 
-    .contact-form {
+    .page-contacts .contact-form {
     	width: 55%;
     	margin-left: 60px;
     }
 
     /* main inner2 */
 
-    .cornered-img {
+    .page-inner .img1 .cornered-img {
         width: 83%;
+        margin-right: 15%;
     }
 
-    .leftside-image-bar>div>img {
+    .page-inner .leftside-image-bar>div>img {
         margin-right: 0px;
+    }
+
+    .page-inner .banner-box .before-corner {
+        bottom: 20px;
+        left: -3px;
     }
 
     /* main faq */
 
-    .main-contentbox .query-for-faq {
+    .page-faq .main-contentbox .query-for-faq {
         margin-left: 30%;
     }
 
-    .queries-clas-faq {
+    .page-faq .queries-clas-faq {
         margin-right: 21%;
+        width: 59%;
     }
 
-    .queries-clas-faq button {
+    .page-faq .queries-clas-faq button {
         margin-left: 0;
-        margin-right: 76%;
+        margin-right: 77%;
     }
 
-    #faqs {
+     .page-faq #faqs {
         margin-bottom: 0;
     }
 
-    #faqs>p {
+    .page-faq #faqs>p {
         background: url('../img/faqs_block.png'), url('../img/faqs_arrow_close.png') 60px 8px no-repeat;
     }
 
-    #faqs p.active  { 
+    .page-faq #faqs p.active  { 
         color:#d74646; 
         background: url('../img/faqs_block.png'), url('../img/faqs_arrow_open.png') 60px 8px no-repeat;
     }
 
     /* main index */
 
-    main.mainpage {
+    .page-home main.mainpage {
         padding-top: 50px;
     }
 
-    .main-page-img1 {
+    .page-home .main-page-img1 {
         margin-left: 0%;
         margin-right: 20%;
     }
 
-    .main-page-img2 {
+    .page-home .main-page-img2 {
         margin-top: 33px;
         margin-left: 0px;
         margin-right: 10%;
     }
 
-    .main-frame-article {
+    .page-home .main-frame-article {
         margin-left: 5%;
     }
 
-    .ban1 div  {
+    .page-home .ban1 div  {
         position: relative;
         display: inline-block;
         margin: 15px 33% 10px 0%;
     } 
 
-    .ban2 div {
+    .page-home .ban2 div {
         position: relative;
         display: inline-block;
         margin: 15px 33% 10px 0%;
     }
 
-    .ban3 div {
+    .page-home .ban3 div {
         position: relative;
         display: inline-block;
         margin: 15px 33% 10px 0%;
     }
 
-    .ban1, .ban2, .ban3 {
+    .page-home .ban1 {
         padding-right: 1%;
     }
 
-    .before-corner1 {
+    .page-home .ban2 {
+        padding-right: 1%;
+    }
+
+    .page-home .ban3 {
+        padding-right: 1%;
+    }
+
+    .page-home .before-corner1 {
         left: -12px;
     }
 
-    .before-corner2 {
+    .page-home .before-corner2 {
         left: -12px;
     }
 
-    .before-corner3 {
+    .page-home .before-corner3 {
         left: -12px;
     }
 
-    .after-corner2 {
+    .page-home .after-corner2 {
         right: -15px;
     } 
 
-    .after-corner3 {
+    .page-home .after-corner3 {
         right: -15px;
     } 
 
-    .main-footer-form h3 {
+    .page-home .main-footer-form h3 {
         position: relative;
         bottom: 82px;
         right: 35%;
     }
 
-    .main-footer-form {
+    .page-home .main-footer-form {
         height: 125px;
         padding-top: 27px;
     }
 
-    .main-footer-form .main-input:first-child {
+    .page-home .main-footer-form .main-input:first-child {
         margin-right: 12%;
     }
 
-    .main-footer-form label {
+    .page-home .main-footer-form label {
         right: 7%;
     }
 }
@@ -264,16 +279,23 @@
 
         /* header main page*/
 
-    .banner-box .querie-for-mp {
+    .page-home .banner-box .querie-for-mp {
         padding-top: 20px;
         font-size: 150%;
         background: url('../img/main_page_article_img1.png') 97% -3px no-repeat, url('../img/main_big_banner_title.png') 0 0 no-repeat;
 
     }
 
-    .banner-box .before {
+    .page-home .banner-box .before {
         bottom: 145px;
         left: -8px;
+    }
+
+    /* header inner */
+
+    .page-inner .banner-box .before-corner {
+        bottom: 40px;
+        left: 0px;
     }
 
     /* main-contact */
@@ -282,6 +304,10 @@
     	width: 65.6%;
     	margin-left: 120px;
     }
+
+   .page-contacts .contact-form button {
+        margin-right: 78%;
+   }
 
 .main-contentbox .query-for-contact {
     display: none;
@@ -293,131 +319,149 @@
 
     /* main inner2 */
 
-    main {
+   .page-inner main {
         padding-top: 0;
     }
 
-    .cornered-img {
+    .page-inner .cornered-img {
         display: inline-block;
         width: 31%;
         margin-right: 15%;
     }
-    .img1>img {
+
+    .page-inner .img1>img {
         float: left;
         margin-left: 10%;
     }
 
-    .leftside-image-bar>div {
+    .page-inner .img1>a {
+        margin-right: 5%;
+    }
+
+     .page-inner .leftside-image-bar>div {
         border-right: none;
     }
 
         /* main faq */
 
-    .main-contentbox>img {
+    .page-faq .main-contentbox>img {
         margin-left: 25%;
     }
 
-    .queries-clas-faq {
+    .page-faq .queries-clas-faq {
         margin-right: 17%;
+        width: 65.6%;
     }
 
-    #faqs {
+    .page-faq #faqs {
         margin-bottom: 0;
     }
 
-    #faqs>p {
+    .page-faq #faqs>p {
         background: url('../img/faqs_block.png'), url('../img/faqs_arrow_close.png') 45px 8px no-repeat;
     }
 
-    #faqs p.active  { 
+    .page-faq #faqs p.active  { 
         color:#d74646; 
         background: url('../img/faqs_block.png'), url('../img/faqs_arrow_open.png') 45px 8px no-repeat;
     }
 
-    .queries-clas-faq button {
+    .page-faq .queries-clas-faq button {
         margin-left: 0;
         margin-right: 76%;
     }
 
         /* main index */
 
-    main.mainpage {
+    .page-home main.mainpage {
         padding-top: 50px;
     }
 
-    .main-page-img1 {
+    .page-home .main-page-img1 {
         margin-left: 0%;
         margin-right: 10%;
     }
 
-    .main-page-img2 {
+    .page-home .main-page-img2 {
         margin-top: 33px;
         margin-left: 0px;
         margin-right: 5%;
     }
 
-    .main-frame-article {
+    .page-home .main-frame-article {
         margin-left: 0%;
         margin-right: 5%;
         padding-right: 5%;
     }
 
-    .ban1 div  {
+    .page-home .ban1 div  {
         position: relative;
         display: inline-block;
         margin: 15px 28% 10px 0%;
     } 
 
-    .ban2 div {
+    .page-home .ban2 div {
         position: relative;
         display: inline-block;
         margin: 15px 28% 10px 0%;
     }
 
-    .ban3 div {
+    .page-home .ban3 div {
         position: relative;
         display: inline-block;
         margin: 15px 28% 10px 0%;
     }
 
-    .before-corner1 {
+    .page-home .before-corner1 {
         left: -12px;
     }
 
-    .before-corner2 {
+    .page-home .before-corner2 {
         left: -12px;
     }
 
-    .before-corner3 {
+    .page-home .before-corner3 {
         left: -12px;
     }
 
-    .after-corner2 {
+    .page-home .after-corner2 {
         right: -15px;
     } 
 
-    .after-corner3 {
+    .page-home .after-corner3 {
         right: -15px;
     } 
 
-    .main-footer-form h3 {
+    .page-home .main-footer-form h3 {
         position: relative;
         bottom: 82px;
         right: 35%;
     }
 
-    .main-footer-form {
+    .page-home .main-footer-form {
         height: 125px;
         padding-top: 27px;
     }
 
-    .main-footer-form .main-input:first-child {
+    .page-home .main-footer-form .main-input:first-child {
         margin-right: 10%;
     }
 
-    .main-footer-form label {
+    .page-home .main-footer-form label {
         right: 0%;
-    }    
+    }
+
+    .page-home .ban1 {
+        padding-right: 1%;
+    }
+
+    .page-home .ban2 {
+        padding-right: 1%;
+    } 
+
+    .page-home .ban3 {
+        padding-right: 1%;
+    }     
 
 }
 
@@ -510,7 +554,7 @@
 
     .contact-form {
     	width: 87.5%;
-    	margin-left: 47px;
+    	margin-left: 38px;
     }
 
     .main-contentbox .query-for-contact {
@@ -523,62 +567,67 @@
 
         /* main inner2 */
 
-    main {
+    .page-inner main {
         padding-top: 0;
     }
 
-    .cornered-img {
+    .page-inner .cornered-img {
         display: inline-block;
         width: 41%;
         margin-right: 27%;
     }
 
-    .img1>a {
+    .page-inner .img1>a {
         margin-right: 23%;
     }
 
-    .leftside-image-bar>div>img {
+    .page-inner .leftside-image-bar>div>img {
         float: left;
         margin-left: 0;
         margin-right: 0;
     }
 
-    .leftside-image-bar>div {
+    .page-inner .leftside-image-bar>div {
         border-right: none;
         margin-top: 40px;
     }
 
        /* main faq */
 
-    .main-contentbox>img {
+    .page-faq .main-contentbox>img {
         margin-left: 15%;
     }
 
-    .queries-clas-faq {
+    .page-faq .queries-clas-faq {
         margin-right: 6%;
+        width: 87.5%;
     }
 
-    #faqs {
+    .page-faq #faqs {
         margin-bottom: 0;
     }
 
-    #faqs>p {
+    .page-faq #faqs>p {
         background: url('../img/faqs_block.png'), url('../img/faqs_arrow_close.png') 30px 8px no-repeat;
     }
 
-    #faqs p.active  { 
+    .page-faq #faqs p.active  { 
         color:#d74646; 
         background: url('../img/faqs_block.png'), url('../img/faqs_arrow_open.png') 30px 8px no-repeat;
     }
 
-    .queries-clas-faq button {
+    .page-faq .queries-clas-faq button {
         margin-left: 0;
         margin-right: 76%;
     }
 
     /* main index  */
 
-    .main-page-img2 {
+    .page-home .mainpage {
+        padding-top: 30px;
+    }
+
+    .page-home .main-page-img2 {
         position: absolute;
         top: 0px;
         right: -5%;
@@ -587,67 +636,81 @@
         margin-right: 5%;
     }
 
-    .ban1 div  {
+    .page-home .ban1 div  {
         position: relative;
         display: inline-block;
         margin: 15px 20% 10px 0%;
     } 
 
-    .ban2 div {
+    .page-home .ban2 div {
         position: relative;
         display: inline-block;
         margin: 15px 20% 10px 0%;
     }
 
-    .ban3 div {
+    .page-home .ban3 div {
         position: relative;
         display: inline-block;
         margin: 15px 20% 10px 0%;
     }
 
-    .before-corner1 {
+    .page-home .before-corner1 {
         left: -12px;
     }
 
-    .before-corner2 {
+    .page-home .before-corner2 {
         left: -12px;
     }
 
-    .before-corner3 {
+    .page-home .before-corner3 {
         left: -12px;
     }
 
-    .after-corner2 {
+    .page-home .after-corner2 {
         right: -15px;
     } 
 
-    .after-corner3 {
+    .page-home .after-corner3 {
         right: -15px;
     } 
 
-    .main-footer-form h3 {
+    .page-home .main-footer-form h3 {
         position: relative;
         bottom: 82px;
         right: 27%;
     }
 
-    .main-footer-form {
+    .page-home .main-footer-form {
         height: 125px;
         padding-top: 27px;
     }
 
-    .main-footer-form>div {
+    .page-home .main-footer-form>div {
         height: 80px;
     }
 
-    .main-footer-form .main-input:first-child {
+    .page-home .main-footer-form .main-input:first-child {
         margin-right: 8%;
     }
 
-    .main-footer-form label {
+    .page-home .main-footer-form label {
         right: 22%;
         bottom: 50px;
     } 
+
+    .page-home .ban3 {
+        padding-right: 1%;
+    }
+
+    .page-home .ban2 {
+        padding-right: 1%;
+    }
+
+    .page-home .ban1 {
+        padding-right: 1%;
+    }
+
+
 
 /* @media screen and (min-width: 480px)  and  (max-width: 496px) {
     html, body {
