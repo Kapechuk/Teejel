@@ -270,19 +270,23 @@
 	padding-left: 0;
 }
 
+.page-home .main-page-banner-box a {
+	display: block;
+}
+
 .page-home .ban1, .ban2, .ban3 {
 	position: ralative;
 } 
 
 .page-home .ban1 {
-	padding-right: 1%;
+	padding-right: 0%;
 	text-align: right;
 	padding-left: 0;
 }
 
 .page-home .ban2 {
 	padding-left: 2%;
-	padding-right: 3.2%;
+	padding-right: 2.53%;
 }
 
 .page-home .ban3 {
@@ -290,11 +294,15 @@
 	padding-right: 5%;
 }
 
+.page-home .ban1>div {
+	display: inline-block;
+}
+
 
 .page-home .before-corner1 {
 	position: absolute;
 	bottom: -15px;
-	left: 35px;
+	left: 45px;
 }
 
 .page-home .after-corner1 {
@@ -305,8 +313,8 @@
 
 .page-home .before-corner2 {
 	position: absolute;
-	bottom: -14px;
-	left: 10px;
+	bottom: -17px;
+	left: 25px;
 }
 
 .page-home .after-corner2 {
