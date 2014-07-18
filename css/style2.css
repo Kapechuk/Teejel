@@ -185,7 +185,7 @@
 	/* home-page */
 
 .page-home .outer-wrapper {
-	background: url("../img/gradient_bckgrnd.png") 190px -120px no-repeat, url('../img/big_banner_bckgrnd1.png') 0 0 repeat-x;
+	background: url('../img/big_banner_bckgrnd1.png') 0 0 repeat-x;
 }
 
 .page-home header {
