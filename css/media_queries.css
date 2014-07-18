@@ -3,6 +3,7 @@
 
 	.inner-wrapper {
 		width: 768px;
+        background: url("../img/gradient_bckgrnd2.png") 20px -60px no-repeat;
 	}
 
 	.header-menu {
