@@ -188,6 +188,10 @@
 	background: url('../img/big_banner_bckgrnd1.png') 0 0 repeat-x;
 }
 
+.page-home .inner-wrapper {
+	padding: 0 0 80px;
+}
+
 .page-home header {
 	height: 522px;
 }
@@ -266,7 +270,7 @@
 
 .page-home .main-page-banner-box {
 	padding-top: 70px;
-	padding-bottom: 100px;
+	padding-bottom: 50px;
 	padding-left: 0;
 }
 
@@ -336,8 +340,8 @@
 }
 
 .page-home .main-form-box {
-	position: absolute;
-	bottom: -90px;
+	position: relative;
+	/* bottom: -90px; */
 	z-index: 5;
 }
 

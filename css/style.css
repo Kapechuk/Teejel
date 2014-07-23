@@ -308,6 +308,7 @@ main {
 }
   
 footer {
+	margin-top: 0px;
 	height: 164px;
 	background: url('../img/footer-backgrnd.png') 0 0 repeat-x;
 }
