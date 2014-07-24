@@ -435,5 +435,9 @@
 }
 
 .page-home footer .footer-nav {
-	margin-top: 114px;
+margin-top: 0;
+}
+
+.page-home .footer-box {
+	padding-top: 114px;
 }
