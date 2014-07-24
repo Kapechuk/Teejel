@@ -206,6 +206,10 @@
         padding-top: 27px;
     }
 
+    .page-home .main-footer-form form {
+        max-height: 125px;
+    }
+
     .page-home .main-footer-form .main-input:first-child {
         margin-right: 12%;
     }
